@@ -1,0 +1,6 @@
+{
+  "name": "ASHLINE — Stage 1 Movement Test Gym",
+  "description": "First-person urban survival movement prototype and Godot 4 Stage 1 foundation.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

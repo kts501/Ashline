@@ -1,0 +1,38 @@
+[gd_resource type="Resource" script_class="MovementTuning" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://src/data/schemas/movement_tuning.gd" id="1_tuning"]
+
+[resource]
+script = ExtResource("1_tuning")
+walk_speed = 4.6
+sprint_speed = 7.4
+crouch_speed = 2.5
+ground_acceleration = 28.0
+ground_deceleration = 24.0
+gravity = 19.6
+jump_velocity = 6.2
+jump_cut_multiplier = 0.5
+air_acceleration = 10.0
+coyote_time = 0.11
+jump_buffer_time = 0.12
+stand_height = 1.8
+crouch_height = 1.05
+stand_eye_height = 1.62
+crouch_eye_height = 0.9
+crouch_transition_speed = 12.0
+max_slope_angle_deg = 45.0
+stamina_max = 100.0
+sprint_drain_per_sec = 18.0
+jump_stamina_cost = 12.0
+stamina_regen_delay = 0.9
+stamina_regen_per_sec = 22.0
+exhaustion_recovery_ratio = 0.25
+mouse_sensitivity = 0.0022
+base_fov = 75.0
+sprint_fov = 83.0
+crouch_fov = 72.0
+fov_lerp_speed = 8.5
+headbob_frequency = 2.15
+headbob_amplitude = 0.045
+strafe_tilt_deg = 1.4
+landing_dip_scale = 0.032
